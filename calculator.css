@@ -1,0 +1,41 @@
+*{
+    padding: 0px;
+    box-sizing: border-box;
+}
+.span-2{
+    grid-column: span 2;
+}
+.span-3{
+    grid-column: span 3;
+}
+.container{
+    max-width: 280px;
+    margin-inline: auto;
+    margin-top: 60px;
+}
+.input{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: right;
+    padding: 10px 10px;
+    font-size: 3rem;
+    border: none;
+}
+.buttons-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    
+}
+.buttons{
+    border: 2px solid black;
+    padding: 10px 10px;
+    background-color: antiquewhite;
+}
+.orange{
+    background-color: orange;
+}
+.buttons:hover{
+    background-color: white;
+}
